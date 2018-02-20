@@ -1,0 +1,86 @@
+[
+	{
+		"produktnavn": "Klassisk Brun",
+		"info": "Et klassisk slips til den brune habit",
+		"pris": "900",
+		"produktbillede": "1_klassisk_brun.jpg"
+	},
+	{
+		"produktnavn": "Stribet Stil",
+		"info": "Et rigtigt direktørslips",
+		"pris": "700",
+		"produktbillede": "2_stribet_stil.jpg"
+	},
+	{
+		"produktnavn": "Brudgommens Favorit",
+		"info": "Skal du giftes? så skal det være det her!",
+		"pris": "350",
+		"produktbillede": "3_brudgommens_favorit.jpg"
+	},
+	{
+		"produktnavn": "Sølvpil",
+		"info": "Er du til fest og farver så vælg dette fantastiske slips",
+		"pris": "600",
+		"produktbillede": "4_soelvpil.jpg"
+	},
+	{
+		"produktnavn": "Rød F11",
+		"info": "Slipset til den store charmør :-)",
+		"pris": "700",
+		"produktbillede": "5_roed_f11.jpg"
+	},
+	{
+		"produktnavn": "Blå Kant",
+		"info": "Køb vores blå slips til barnedåben!",
+		"pris": "560",
+		"produktbillede": "6_blaa_kant.jpg"
+	},
+	{
+		"produktnavn": "Fars Favorit",
+		"info": "Klassisk slips med et twist",
+		"pris": "900",
+		"produktbillede": "7_fars_favorit.jpg"
+	},
+	{
+		"produktnavn": "Sort Nat",
+		"info": "Slipset til den ultra stilbeviste",
+		"pris": "900",
+		"produktbillede": "8_sort_nat.jpg"
+	},
+	{
+		"produktnavn": "Blue",
+		"info": "Blåt med striber",
+		"pris": "450",
+		"produktbillede": "9_blue.jpg"
+	},
+	{
+		"produktnavn": "Tern",
+		"info": "Perfekt til den klassiske blå skjorte",
+		"pris": "800",
+		"produktbillede": "10_tern.jpg"
+	},
+	{
+		"produktnavn": "Ræven",
+		"info": "Lækkert ræverødt slips",
+		"pris": "790",
+		"produktbillede": "11_raeven.jpg"
+	},
+	{
+		"produktnavn": "Kinini",
+		"info": "Et lækkert slips i høj kvalitet",
+		"pris": "780",
+		"produktbillede": "12_kinini.jpg"
+	},
+	{
+		"produktnavn": "Europa",
+		"info": "Et lækkert slips i en super kvalitet.",
+		"pris": "500",
+		"produktbillede": "13_europa.jpg"
+	},
+	{
+		"produktnavn": "Kina",
+		"info": "Et super slips fra vores kinesiske designer",
+		"pris": "800",
+		"produktbillede": "14_kina.jpg"
+	}
+]
