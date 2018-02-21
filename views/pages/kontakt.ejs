@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-    <title>Admin - Muskelklip</title>
+    <title>Admin - Slipseknuden</title>
 </head>
 
 <body class="home">
@@ -26,7 +26,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">MUSKELKLIP-ADMIN</a></div>
+            <a class="navbar-brand" href="#">Slipseknuden-ADMIN</a></div>
           <div class="collapse navbar-collapse" id="nav-bar">
             <ul class="nav navbar-nav">
        
@@ -96,7 +96,6 @@
                     <th class="col-sm-3" scope="col">Navn</th>
                     <th class="col-sm-3" scope="col">Tidspunkt</th>
                     <th class="col-sm-3" scope="col">Telefon</th>
-                    <th class="col-sm-3" scope="col">Barber</th>
                     <th class="col-sm-3" scope="col">Besked</th>
                 </tr>
             </thead>
@@ -107,7 +106,6 @@
                       <td class="name col-sm-3"><%= item.customers_name %></td>
                       <td class="time col-sm-3"><%= item.reservation_time %></td>
                       <td class="tlf col-sm-3"><%= item.customers_phone %></td>
-                      <td class="barber col-sm-3"><%= item.employee_name %></td>
                       <td class="besked col-sm-3"><%= item.reservation_message %></td>
                       <td class="knapper">
                           <a href="/kontakt" type="button" class="btn btn-primary btn-xs delete" data-id=" <%= item.reservation_id %>" title="Slet">

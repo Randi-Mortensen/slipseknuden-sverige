@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 m-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-6">
+                        <h3>Priser</h3>
+                        <table class="table">
+                            <tbody>
+                                <% prices[0].cutting.forEach(item => { %>
+                                    <tr>
+                                        <td><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;"><%= item.name %></span></td>
+                                        <td class="price"><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;"><%= item.price %>kr</span></td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;">Kamstrejf</span></td>
+                                    <td class="price"><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;">250 kr.</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;">Lyn-farve og klip</span></td>
+                                    <td class="price"><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;">550 kr.</span></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #000000;">(farvning på 5-10 min. der gør håret mørkere eller kamuflerer grå hår)</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="footer-col col-md-6">
+                            <h3>Åbningstider</h3>
+                            <table class="table table-dark">
+                                <tbody>
+                                    <% openHours.forEach(item => { %>
+                                        <tr>
+                                            <td><%= item.day %></td>
+                                            <td><%= item.opening%> - <%= item.closing %></td>
+                                        </tr>
+                                    <% }) %>
+                                </tbody>
+                            </table>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
